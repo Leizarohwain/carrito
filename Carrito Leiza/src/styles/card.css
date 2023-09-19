@@ -1,0 +1,122 @@
+.tarjeta {
+  display:flex;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  height:100%;
+  width: 100%;
+  border-style: double rgb(163, 74, 74);
+  border-width: 4px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  background:linear-gradient(to right, #3a3535, #000000);
+}
+  
+  .tarjeta-imagen {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+    
+  }
+  
+  .tarjeta-imagen:hover {
+    transform: scale(1.1);
+  }
+
+  .tarjeta-contenido {
+    flex: 1;
+    color:#f2f2f2;
+  }
+  
+  .tarjeta-titulo {
+    margin: 0;
+  }
+  
+  .tarjeta-descripcion {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .tarjeta-precio {
+    text-align: center;
+    margin: 100 auto;
+    font-weight: bold;
+  }
+  .tarjeta-precio:hover {
+    transform: scale(1.5);
+  }
+  
+  .boton-agregar {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+  align-items: center;
+  display:flex;
+ 
+  }
+  
+  .boton-agregar:hover {
+    background-color: #45a049;
+  }
+  .boton-quitar {
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    padding: 5px 100px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boton-quitar:hover {
+    background-color: #a04545;
+  }
+  
+  .contenedor{
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  /* Estilos para el carrito */
+  .carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .nav{
+    width: 100%;
+    background: linear-gradient(to right, #555555, #000000);
+  }
+
+  .navbar {
+    background: linear-gradient(to bottom right, #f2f2f2, #474242); /* Fondo degradado gris claro */
+    color: black; /* Texto en color negro */
+    padding: 10px; /* Añade un poco de espacio interior para separar el contenido */
+  }
+  
+  .navbar ul {
+    list-style: none; /* Elimina los estilos de lista predeterminados */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos de manera equitativa */
+  }
+  
+  .navbar li {
+    display: inline-block; /* Muestra los elementos en una línea horizontal */
+  }
+  
+  .navbar li a {
+    text-decoration: none; /* Elimina la decoración de subrayado del enlace */
+    color: inherit; /* Hereda el color del texto de la navbar */
+  }
+
